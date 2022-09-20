@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PROBANDO</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1> FIGURAS</h1>
+    <section id = "section-mascota">
+       <h2> Elige tu mascota: </h2>  
+       <label for="primera-mascota"> PRIMERA MASCOTA </label>
+       <input type="radio" name = "mascota" id = "primera-mascota" />
+       <label for="segunda-mascota"> SEGUNDA MASCOTA </label>
+       <input type="radio" name = "mascota" id = "segunda-mascota" />
+       <label for="tercera-mascota"> TERCERA MASCOTA</label>
+       <input type="radio" name = "mascota" id = "tercera-mascota" />
+   
+       <button id = "boton-mascota"> Seleccionar </button>
+
+    </section>
+
+    <section id = "section-ataque">
+        <h2> Elige tu ataque: </h2>
+        <p> Tu <span id = "mascota-jugador"> __ </span> tiene <span id = "vidas-jugador"> 3 </span> vidas</p>
+        <p> La mascota del enemigo es: <span id = "mascota-enemigo"> __ </span> con <span id = "vidas-enemigo"> 3  </span> vidas</p>
+
+        <p> 
+            <button id = "boton-fuego"> FUEGO</button>
+            <button id = "boton-agua"> AGUA</button>
+            <button id = "boton-tierra"> TIERRA</button>
+            
+        </p>
+
+        
+    </section>
+    
+    <section id = "mensajes"> 
+    </section>
+
+    <section id = "reinicio">
+        <button id = "boton-reinicio"> Reiniciar </button>
+    </section>
+    
+    
+    <script src = "./index.js"></script>
+</body>
+</html>
